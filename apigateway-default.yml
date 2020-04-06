@@ -1,6 +1,6 @@
 # 테스트용
-zuul
+zuul:
   routes:
     test:
       path: /test/**
-      url: https://www.naver.com
+      url: http://www.naver.com
