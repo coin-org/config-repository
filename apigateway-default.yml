@@ -1,3 +1,10 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - refresh
+        
 # 테스트용
 zuul:
   routes:
