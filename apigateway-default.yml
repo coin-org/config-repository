@@ -15,5 +15,5 @@ zuul:
       path: /test/**
       url: http://www.naver.com
     test2:
-      path: /test2
+      path: /test2/**
       url: http://www.google.com
