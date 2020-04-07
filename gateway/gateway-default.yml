@@ -13,4 +13,5 @@ zuul:
   routes:
     gonggongdata:
       path: /gonggongdata/**
+      serviceId: gonggongdata
       url: http://localhost:8082
