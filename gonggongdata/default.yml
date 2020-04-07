@@ -1,0 +1,19 @@
+server:
+  port: 8082
+
+api:
+  apiDataList:
+  -
+    category: 노래방
+    apiList:
+    -
+      location: 안양시
+      api: https://www.data.go.kr/dataset/fileDownload.do?atchFileId=FILE_000000001509631&fileDetailSn=1&publicDataDetailPk=uddi:641bbe3a-2b41-4a25-b29b-84dec5f149d2_201903260947
+      charset: EUC-KR
+  -
+    category: 경로당
+    apiList:
+    -
+      location: 안양시
+      api: https://www.data.go.kr/dataset/fileDownload.do?atchFileId=FILE_000000001558066&fileDetailSn=1&publicDataDetailPk=uddi:a6cdb40a-fc99-4595-9f8b-9d629f2218d6_201909032005
+      charset: EUC-KR 
