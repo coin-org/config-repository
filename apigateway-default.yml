@@ -13,7 +13,9 @@ zuul:
   routes:
     test:
       path: /test/**
+      serviceId: Naver
       url: http://www.naver.com
     test2:
       path: /test2/**
+      serviceId: Google
       url: http://www.google.com
